@@ -1,0 +1,58 @@
+﻿<Window x:Class="IngenOrderPro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IngenOrderPro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="960" WindowStyle="None" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF60F70F" x:Name="grid_leftBar" Margin="1,0,0,0" HorizontalAlignment="Left" Width="134">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="35*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <DockPanel x:Name="grid_topbar" Margin="70,0,-825,35" Height="Auto" Grid.Column="1">
+            <DockPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFDE311F" Offset="1"/>
+                </LinearGradientBrush>
+            </DockPanel.Background>
+        </DockPanel>
+
+        <Button Content="Home" HorizontalAlignment="Left" Margin="0,70,0,0" VerticalAlignment="Top" Background="#FF727580" Foreground="#FFFFEFEF" FontFamily="Segoe UI Semibold" Width="134" Height="45" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Button Content="Button" Margin="0,-50,575,0" VerticalAlignment="Top" Background="#FF18DBEA" Foreground="#FFFBF7F7" HorizontalAlignment="Right" Width="46" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="0,11,0,0" VerticalAlignment="Top" Background="#FF727580" Foreground="#FFFFEFEF" FontFamily="Segoe UI Semibold" Width="134" Height="45" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="0,57,0,0" VerticalAlignment="Top" Background="#FF727580" Foreground="#FFFFEFEF" FontFamily="Segoe UI Semibold" Width="134" Height="45" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF727580" Foreground="#FFFFEFEF" FontFamily="Segoe UI Semibold" Width="134" Height="46" Margin="0,103,0,0" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Width="134" Margin="-2,1,0,35" Source="/images.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Button Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF727580" Foreground="#FFFFEFEF" FontFamily="Segoe UI Semibold" Width="134" Height="46" Margin="0,150,0,0" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF727580" Foreground="#FFFFEFEF" FontFamily="Segoe UI Semibold" Width="134" Height="46" Margin="0,197,0,0" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF727580" Foreground="#FFFFEFEF" FontFamily="Segoe UI Semibold" Width="134" Height="46" Margin="0,244,0,0" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Grid Margin="68,70,-825,0" Grid.RowSpan="2" Grid.Column="1">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Blue"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+
+
+    </Grid>
+
+
+</Window>

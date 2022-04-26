@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/IngenOrderPro/v17
+/IngenOrderPro/bin/Debug
+/IngenOrderPro/obj/Debug
